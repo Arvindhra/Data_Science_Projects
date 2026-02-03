@@ -2,55 +2,54 @@
 ## Project Overview
 
 * This project forecasts public transport ridership for four major rail lines in Malaysia:
-i) LRT Kelana Jaya Line /n
+  
+i) LRT Kelana Jaya Line 
 ii) MRT Kajang Line
+iii) LRT Ampang Line
+iv) MRT Putrajaya Line
 
-LRT Ampang Line
+* The objective is to understand historical ridership trends and forecast demand for Q1 2026 (January–March 2026) using a time-series forecasting model.
 
-MRT Putrajaya Line
+* The project was completed in January 2026.
 
-The objective is to understand historical ridership trends and forecast demand for Q1 2026 (January–March 2026) using a time-series forecasting model.
+## Modeling Approach
 
-The project was completed in January 2026.
+* The forecasting model used in this project is Facebook Prophet, a decomposable time-series model that captures:
 
-Modeling Approach
+- Trend
 
-The forecasting model used in this project is Facebook Prophet, a decomposable time-series model that captures:
+- Seasonality
 
-Trend
+- Holiday effects (optional)
 
-Seasonality
+* Each rail line is modeled independently, with different training windows based on data availability.
 
-Holiday effects (optional)
+## Key Analysis Components
 
-Each rail line is modeled independently, with different training windows based on data availability.
-
-Key Analysis Components
-
-Yearly Ridership Trends
+a) Yearly Ridership Trends
 Comparison of total ridership by year for each line.
 
-Monthly Trends by Year (2019–2025)
+b) Monthly Trends by Year (2019–2025)
 Comparison of monthly ridership across lines for each year.
 
-Monthly Trends by Line (2019–2025)
+c) Monthly Trends by Line (2019–2025)
 Comparison of ridership patterns across years for each line.
 
-Time-Series Forecasting
+d) Time-Series Forecasting
 Prophet models trained separately for each line.
 
-Model Evaluation
+e) Model Evaluation
 Performance evaluated on a hold-out test set using:
 
-Absolute Error (AE)
+i) Absolute Error (AE)
 
-Absolute Percentage Error (APE)
+ii) Absolute Percentage Error (APE)
 
-Mean Absolute Error (MAE)
+iii) Mean Absolute Error (MAE)
 
-Mean Absolute Percentage Error (MAPE)
+iv) Mean Absolute Percentage Error (MAPE)
 
-Forecast Period
+## Forecast Period
 
 Training data: Historical ridership up to mid/late 2025
 
@@ -58,7 +57,7 @@ Testing data: Late 2025
 
 Forecast horizon: Q1 2026 (January–March 2026)
 
-Data Source & Attribution
+## Data Source & Attribution
 
 The dataset used in this project is published by the Government of Malaysia through the Open Data Malaysia portal (data.gov.my).
 
