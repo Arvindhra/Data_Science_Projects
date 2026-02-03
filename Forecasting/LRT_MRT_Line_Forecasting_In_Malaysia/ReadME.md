@@ -17,3 +17,20 @@ iv) Running of Prophet model for the training data. Each line has a different du
 v) Analysis of actual, predicted, APE, MAE and MAPE values for each of this line for the testing data.
 
 Soon, I will create the full documentation for this project.
+
+
+
+
+As for the data source itself: 
+
+The dataset used in this project is published by the Government of Malaysia and Prasarana Malaysia through the Open Data Malaysia portal (data.gov.my).
+
+Dataset: Daily Public Transport Ridership
+Publisher: Ministry of Transport Malaysia, Prasarana Malaysia
+Link: https://data.gov.my/data-catalogue/ridership_headline
+
+The data is used under the Open Data Malaysia License with attribution.
+
+Note:
+All preprocessing and transformations were performed by the project author.
+This project is not affiliated with or endorsed by the Government of Malaysia or Prasarana Malaysia.
