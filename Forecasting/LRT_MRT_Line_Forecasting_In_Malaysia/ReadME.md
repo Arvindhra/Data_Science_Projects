@@ -1,10 +1,9 @@
 # LRT & MRT Ridership Forecasting (Malaysia)
 ## Project Overview
 
-### This project forecasts public transport ridership for four major rail lines in Malaysia:
-#### i) LRT Kelana Jaya Line
-
-MRT Kajang Line
+* This project forecasts public transport ridership for four major rail lines in Malaysia:
+i) LRT Kelana Jaya Line /n
+ii) MRT Kajang Line
 
 LRT Ampang Line
 
