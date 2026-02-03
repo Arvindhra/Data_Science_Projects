@@ -2,6 +2,6 @@ This forecasting project is done for four major LRT & MRT Lines in Malaysia whic
 
 This forecasting project was done in January 2026.
 
-The forecast period done is for Q1 of 2026 (January 2026 to March 2026).
+The forecast period done is for Q1 of 2026 (January 2026 to March 2026) and the time-series model used for this forecasting is Prophet. 
 
 Soon, I will create the full documentation for this project.
