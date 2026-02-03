@@ -1,36 +1,74 @@
-This forecasting project is done for four major LRT & MRT Lines in Malaysia which are LRT Kelana Jaya Line, MRT Kajang Line, LRT Ampang Line and MRT Putrajaya Line.
+# LRT & MRT Ridership Forecasting (Malaysia)
+## Project Overview
 
-This forecasting project was done in January 2026.
+### This project forecasts public transport ridership for four major rail lines in Malaysia:
+#### i) LRT Kelana Jaya Line
 
-The forecast period done is for Q1 of 2026 (January 2026 to March 2026) and the time-series model used for this forecasting is Prophet.
+MRT Kajang Line
 
-In this particular project, the aspects that I have covered include:
+LRT Ampang Line
 
-i) Analysis of yearly volume for each of the line
+MRT Putrajaya Line
 
-ii) Analysis of monthly volume for each of the lines for each year from the year of 2019 to 2025 (Comparison between each of the lines for each specific year).
+The objective is to understand historical ridership trends and forecast demand for Q1 2026 (January–March 2026) using a time-series forecasting model.
 
-iii) Analysis of monthly volume for each of the lines combined from the year of 2019 to 2025 (Comparison between each of the year for specific lines separately).
+The project was completed in January 2026.
 
-iv) Running of Prophet model for the training data. Each line has a different duration of training data taken for this Prophet model.
+Modeling Approach
 
-v) Analysis of actual, predicted, APE, MAE and MAPE values for each of this line for the testing data.
+The forecasting model used in this project is Facebook Prophet, a decomposable time-series model that captures:
 
-Soon, I will create the full documentation for this project.
+Trend
 
+Seasonality
 
+Holiday effects (optional)
 
+Each rail line is modeled independently, with different training windows based on data availability.
 
-As for the data source itself: 
+Key Analysis Components
 
-The dataset used in this project is published by the Government of Malaysia and Prasarana Malaysia through the Open Data Malaysia portal (data.gov.my).
+Yearly Ridership Trends
+Comparison of total ridership by year for each line.
+
+Monthly Trends by Year (2019–2025)
+Comparison of monthly ridership across lines for each year.
+
+Monthly Trends by Line (2019–2025)
+Comparison of ridership patterns across years for each line.
+
+Time-Series Forecasting
+Prophet models trained separately for each line.
+
+Model Evaluation
+Performance evaluated on a hold-out test set using:
+
+Absolute Error (AE)
+
+Absolute Percentage Error (APE)
+
+Mean Absolute Error (MAE)
+
+Mean Absolute Percentage Error (MAPE)
+
+Forecast Period
+
+Training data: Historical ridership up to mid/late 2025
+
+Testing data: Late 2025
+
+Forecast horizon: Q1 2026 (January–March 2026)
+
+Data Source & Attribution
+
+The dataset used in this project is published by the Government of Malaysia through the Open Data Malaysia portal (data.gov.my).
 
 Dataset: Daily Public Transport Ridership
 Publisher: Ministry of Transport Malaysia, Prasarana Malaysia
 Link: https://data.gov.my/data-catalogue/ridership_headline
 
-The data is used under the Open Data Malaysia License with attribution.
+The data is used under the Open Data Malaysia License, which permits reuse with attribution.
 
-Note:
-All preprocessing and transformations were performed by the project author.
+Disclaimer:
+All preprocessing, transformations, and analysis were performed by the project author.
 This project is not affiliated with or endorsed by the Government of Malaysia or Prasarana Malaysia.
