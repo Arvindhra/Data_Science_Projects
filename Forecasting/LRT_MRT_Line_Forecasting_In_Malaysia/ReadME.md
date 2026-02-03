@@ -3,10 +3,10 @@
 
 * This project forecasts public transport ridership for four major rail lines in Malaysia:
   
-i) LRT Kelana Jaya Line 
-ii) MRT Kajang Line
-iii) LRT Ampang Line
-iv) MRT Putrajaya Line
+    i) LRT Kelana Jaya Line 
+    ii) MRT Kajang Line
+    iii) LRT Ampang Line
+    iv) MRT Putrajaya Line
 
 * The objective is to understand historical ridership trends and forecast demand for Q1 2026 (January–March 2026) using a time-series forecasting model.
 
